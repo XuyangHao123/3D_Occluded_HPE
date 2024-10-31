@@ -56,8 +56,8 @@ class Gain(pl.LightningModule):
         self.generator = file_net
         self.depth_estimator = depth_estimator
         self.opts = {}
-        self.bl_prior = torch.tensor([[0.5895, 1.6879, 1.5500, 0.5917, 1.6936, 1.5514, 1.1122, 1.0248, 0.4727, 0.4868,
-                                       0.6466, 1.0745, 0.9015, 0.6525, 1.0651, 0.8993]],
+        self.bl_prior = torch.tensor([[0.5246, 1.7387, 1.7132, 0.5246, 1.7387, 1.7132, 0.9316, 0.9793,
+                                       0.4482, 0.4407, 0.5795, 1.0863, 0.9578, 0.5795, 1.0863, 0.9578]],
                                      device='cuda:0')
         self.parent = [0, 1, 2, 0, 4, 5, 0, 7, 8, 9, 8, 11, 12, 8, 14, 15]
         self.automatic_optimization = False
