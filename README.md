@@ -1,5 +1,5 @@
 # Main File description
-  3D_Occluded_HPE
+  3D_Occluded_HPE  
       |-pre_train_filling_network.py #pretrain the filling network, this will save the filling network to the dic: fillnet  
       |-pre_train_lifting_network.py #pretrain the lifting network, this will save the teacher network to the dic: liftnet  
       |-pre_train_inn2d_on_mpii.py #pretrain the normalizing flow network on other dataset  
