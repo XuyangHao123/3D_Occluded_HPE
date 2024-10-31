@@ -45,8 +45,8 @@ class LiftingNetwork(pl.LightningModule):
         self.depth_estimator = depth_estimator
         self.opts = {}
         self.pca = None
-        self.bl_prior = torch.tensor([[0.4779, 1.8354, 1.5134, 0.4779, 1.8333, 1.5134, 0.9031, 0.9810, 0.3450, 0.6903,
-                                       0.5711, 1.2172, 0.9257, 0.5723, 1.2172, 0.9257]],
+        self.bl_prior = torch.tensor([[0.5246, 1.7387, 1.7132, 0.5246, 1.7387, 1.7132, 0.9316, 0.9793,
+                                       0.4482, 0.4407, 0.5795, 1.0863, 0.9578, 0.5795, 1.0863, 0.9578]],
                                      device='cuda:0')
         self.parent = [0, 1, 2, 0, 4, 5, 0, 7, 8, 9, 8, 11, 12, 8, 14, 15]
         self.metrics = Metrics()
