@@ -19,4 +19,4 @@ put the dataset dic under the root
 # 5.Train
 > python org_main.py  
 # Appendix
-If you want to train on the other dataset, please pretrain the normalizing flow network and change the attributes in the class: Config of each python file.  
+If you want to train on the other dataset, please pretrain the normalizing flow network; change the attributes in the class: Config of each python file; change the [bl_prior](https://github.com/XuyangHao123/3D_Occluded_HPE/blob/main/pre_train_lifting_network.py#L48) in the org_main.py and [bl_prior](https://github.com/XuyangHao123/3D_Occluded_HPE/blob/main/org_main.py#L59) in the org_main.py  (not must but will influence the performance).
