@@ -8,8 +8,8 @@
 # 1.Clone the code
 > git clone https://github.com/XuyangHao123/3D_Occluded_HPE.git  
 # 2.Download the dataset
-[link](https://pan.baidu.com/s/1w5J1l6AeYBVyxSPIn7b1jA?pwd=rvvx)  
-put the dataset dic under the root  
+[dataset](https://pan.baidu.com/s/1w5J1l6AeYBVyxSPIn7b1jA?pwd=rvvx)  
+put the dataset dic under the root. (This is the dataset is P2 subject of Human3.6 dataset)  
 # 3.Install requirements
 > cd 3D_occluded_HPE  
 > pip install -r requirements.txt  
