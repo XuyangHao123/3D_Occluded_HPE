@@ -12,7 +12,7 @@
 put the dataset dic under the root  
 # 3.Install requirements
 > cd 3D_occluded_HPE  
-> pip install requirements.txt  
+> pip install -r requirements.txt  
 # 4.Pretrain the tearcher and filling network
 > python pre_train_filling_network.py  
 > python pre_train_lifting_network.py  
