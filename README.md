@@ -1,5 +1,6 @@
 # Info: About the proposed framework
-In this work we have proposed an attention based distillation framework for the occludeded 3D human pose estimation. The sturcture of the proposed model is following.  
+In this work we have proposed an attention based distillation framework for the occludeded 3D human pose estimation. The framework is impletation with pytorch, ande the version is contained in the requirements.txt.  
+The sturcture of the proposed model is following.  
 ## About the pose filling network  
 **The Structure**  
 the filling network is composed with an attention filling model and several global attention finetuning models.  
