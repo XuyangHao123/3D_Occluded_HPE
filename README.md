@@ -2,9 +2,6 @@
 In this work we have proposed an attention based distillation framework for the occludeded 3D human pose estimation. The framework is impletation with pytorch, ande the version is contained in the requirements.txt.  
 The sturcture of the proposed model is following.  
 ## About the pose filling network  
-**The Structure**  
-the filling network is composed with an attention filling model and several global attention finetuning models.  
-![filling_network](https://github.com/user-attachments/assets/06703f06-f32c-4c0c-903b-9e912ed6b706)  
 **Code**  
 [Model Code](https://github.com/XuyangHao123/3D_Occluded_HPE/blob/main/models.py#L411)  
 [Train Process](https://github.com/XuyangHao123/3D_Occluded_HPE/blob/main/pre_train_filling_network.py#L38)  
@@ -20,8 +17,6 @@ The pose lifting network is composed by several residual linear layers and one g
 **The Strcture**  
 The teacher network is pretrained on the none occluded poses, the filling network is pretrained on the occluded poses and the student network is trained with the occluded poses.    
 Note: the teacher and student networks have the same structure.  
-**The training process**  
-![total_process](https://github.com/user-attachments/assets/c355bfa2-a855-478b-91f5-a8be4a6b18d3)  
 **Code**  
 [Train Process](https://github.com/XuyangHao123/3D_Occluded_HPE/blob/main/org_main.py#L50)  
 
